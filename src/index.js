@@ -48,11 +48,11 @@ class Calvinball {
         return "Calvinball: " + this.point;
     }
 }
-let sportok = [
+let Results = [
     new football("Argentina", "0-1"),
     new Marathon("Ronaldo Ardema", 120),
     new Calvinball("Calvin")
 ];
-for (let sport of sportok) {
+for (let sport of Results) {
     console.log(sport.result);
 }
